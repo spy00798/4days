@@ -3,7 +3,7 @@
 <%@ page import="java.sql.*" %>
 <h3>오디션 등록</h3>
 
-<form action="../cafe/action/insert_coffee.jsp" name="action_form">
+<form action="action/insert_coffee.jsp" name="action_form" method="post">
 	<table border="1">
 		<tr>
 			<td>비번호</td>
